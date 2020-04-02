@@ -213,7 +213,7 @@ $pct = round(($arrecadado / $meta) * 100);
                                 <p class="service__desc">
                                     Projeto industrial para injeção na industria. EPI´s Bahia.
                                 </p>
-                                <a target="_blank" href="http://vaka.me/956493" class="theme-btn">Doar para EPI´s na Bahia.</a>
+                                <a target="_blank" href="http://vaka.me/956493" class="theme-btn">Doar para EPI´s na Bahia</a>
                             </div>
                         </div><!-- end service-item-inner -->
                     </div><!-- end service-item -->
@@ -253,7 +253,7 @@ $pct = round(($arrecadado / $meta) * 100);
                                 <p class="service__desc">
                                     Faça parte do movimento e ajude as pessoas da cidade de Marília-SP
                                 </p>
-                                <a target="_blank" href="http://vaka.me/966668" class="theme-btn">Doar para a cidade de Marília.</a>
+                                <a target="_blank" href="http://vaka.me/966668" class="theme-btn">Doar para a cidade de Marília</a>
                             </div>
                         </div><!-- end service-item-inner -->
                     </div><!-- end service-item -->
@@ -268,7 +268,8 @@ $pct = round(($arrecadado / $meta) * 100);
                                 <p class="service__desc">
                                     Faça parte do movimento e ajude as pessoas da cidade de Bauru-SP.
                                 </p>
-                                <a target="_blank" href="http://vaka.me/968449" class="theme-btn">Doar para a cidade de Bauru.</a>
+                                <!-- ESTÃO MUDANDO DE PLATAFORMA -->
+                                <!-- <a target="_blank" href="http://vaka.me/968449" class="theme-btn">Doar para a cidade de Bauru.</a> -->
                             </div>
                         </div><!-- end service-item-inner -->
                     </div><!-- end service-item -->
@@ -279,9 +280,22 @@ $pct = round(($arrecadado / $meta) * 100);
                             <div class="service-content">
                                 <h4 class="service__title">Ilhéus, Bahia</h4>
                                 <p class="service__desc">
-                                    Faça parte do movimento e ajude as pessoas desse Hub.
+                                    Faça parte do movimento e ajude as pessoas da cidade de ILHÉUS-BA.
                                 </p>
-                                <!-- <a target="_blank" href="https://chat.whatsapp.com/DcL189qM2WIHr8K0X1THmf" class="theme-btn" >Faça parte</a> -->
+                                <a target="_blank" href="http://vaka.me/967777" class="theme-btn">Doar para a cidade de Ilhéus</a>
+                            </div>
+                        </div><!-- end service-item-inner -->
+                    </div><!-- end service-item -->
+                </div><!-- end col -->
+                <div class="col">
+                    <div class="service-item service-item1">
+                        <div class="service-item-inner">
+                            <div class="service-content">
+                                <h4 class="service__title">Itabuna, Bahia</h4>
+                                <p class="service__desc">
+                                    Faça parte do movimento e ajude as pessoas da cidade de ITABUNA-BA.
+                                </p>
+                                <a target="_blank" href="http://vaka.me/967777" class="theme-btn">Doar para a cidade de Itabuna</a>
                             </div>
                         </div><!-- end service-item-inner -->
                     </div><!-- end service-item -->
@@ -299,6 +313,8 @@ $pct = round(($arrecadado / $meta) * 100);
                         </div><!-- end service-item-inner -->
                     </div><!-- end service-item -->
                 </div><!-- end col -->
+            </div>
+            <div class="row service-wrap">
                 <div class="col">
                     <div class="service-item service-item1">
                         <div class="service-item-inner">
@@ -312,7 +328,9 @@ $pct = round(($arrecadado / $meta) * 100);
                         </div><!-- end service-item-inner -->
                     </div><!-- end service-item -->
                 </div><!-- end col -->
-
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
             </div>
             <div class="row service-wrap">
                 <div class="col">
@@ -603,6 +621,8 @@ $pct = round(($arrecadado / $meta) * 100);
                     <a href="http://instagram.com/vinisampaioalmeida" target="_blank">Vinicius Sampaio<small class="instagram">@vinisampaioalmeida</small><small class="empresa">UFBA/FORD</small></a>
                     <a href="http://instagram.com/superlohcarvalho" target="_blank">Loraine A Carvalho<small class="instagram">@superlohcarvalho</small><small class="empresa">Band Tv</small></a>
                     <a href="http://instagram.com/sheilapereiras" target="_blank">Sheila Pereira<small class="instagram">@sheilapereiras</small><small class="empresa">Meio Mundo Comunicação, Tecnologia e Inovação</small></a>
+                    <a href="http://instagram.com/marcelmarumaia" target="_blank">Marcel Maia<small class="instagram">@marcelmarumaia</small><small class="empresa">AdMobilize</small></a>
+                    <a href="http://instagram.com/jonataweber" target="_blank">Jonata Weber<small class="instagram">@jonataweber</small><small class="empresa">Skilopay</small></a>
                 </div>
             </div><!-- end row -->
         </div><!-- end container -->
