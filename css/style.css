@@ -4773,3 +4773,12 @@ a:hover {
 .equipe__email{
     font-weight: 700;
 }
+
+.social-media a {
+    color: white;
+    font-size: 30px;
+}
+
+.social-media a:hover {
+    color: #f1ae44
+}

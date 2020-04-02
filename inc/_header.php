@@ -18,11 +18,11 @@
                         </div>
                     </div><!-- end logo-action -->
                 </div><!-- site-branding -->
-                <div class="col-lg-5 col-sm-5 ostion-menu">
+                <div class="col-lg-4 col-sm-4 ostion-menu">
                     <div class="ostion-menu-innner">
                         <div class="ostion-menu-content">
                             <div class="navigation-top">
-                            <nav class="main-navigation">
+                                <nav class="main-navigation">
                                     <ul>
                                         <li class="active"><a href="#">Home</a></li>
                                         <!-- <li><a href="#">Cidades (HUBs)</a>
@@ -48,6 +48,11 @@
                         </div>
                     </div><!-- end ostion-menu-innner -->
                 </div><!-- ostion-menu -->
+                <div class="col-lg-1 col-sm-1 social-media">
+                    <a target="_blank" href="https://www.instagram.com/coronavidasoficial/" alt="@coronavidasoficial">
+                        <i title="@coronavidasoficial" class="fa fa-instagram"></i>
+                    </a>
+                </div>
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end header-top -->
