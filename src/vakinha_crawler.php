@@ -16,7 +16,6 @@ final class VakinhaCrawler
     $dom = new DOMDocument();
     @$dom->loadHtml(file_get_contents($this->url));
     $finder = new DomXPath($dom);
-    $classname_VALOR_ARRECADADO = "sc-htpNat fKphHb";
     $VALOR_ARRECADADO = $finder->query('/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div/div[3]/div/span');
     $META = $finder->query('/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div/div[3]/div/div[2]/span');
 
