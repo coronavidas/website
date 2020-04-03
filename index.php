@@ -148,11 +148,17 @@ $pct = $results["progresso"];
                 <div class="col-lg-7">
                     <div class="world-content">
                         <p class="world__desc">
-                            Somos um coletivo de pessoas voluntárias engajadas em em entregar Equipamento de Proteção Individual - Protetor facial conhecido como Face Shield aos profissionais de Saúde no Estado da Bahia. Esse EPI evita o contato com gotículas que possam atingir boca, nariz e olhos. Pretendemos entregar até 200.000 (duzentas mil equipamentos na Bahia). Atualmente estamos finalizando o Molde de injeção. Todo recurso arrecadado será utilizado única e exclusivamente para doação.<br>
-                            Hoje temos HUB´s de produção nas seguintes cidades: <b>Bahia:</b> Feira de Santana-Ba, Vitoria da Conquista-Ba, Jequie-Ba, Ilhes-Ba, Valença-Ba, Guanambi-Ba. <b> São Paulo </b> Marilia, Bauru, São Paulo. <b> Rio de Janeiro </b> Rio de Janeiro.
-                            Você pode fazer parte desse movimento e ajudar a combater o Corona vírus de duas formas.
-                            <br>Sendo um voluntário
-                            <br>Realizando uma doação.
+                            Somos um coletivo de pessoas voluntárias engajadas em entregar Equipamento de Proteção Individual - Protetor facial conhecido como Face Shield - aos profissionais de Saúde de todo o Brasil. Esse EPI evita o contato com gotículas que possam atingir boca, nariz e olhos. Todo recurso arrecadado será utilizado única e exclusivamente para doação. Pretendemos entregar até 200.000 (duzentas mil equipamentos na Bahia). Atualmente estamos finalizando o Molde de injeção. Todo recurso arrecadado será utilizado única e exclusivamente para doação.<br /><br />
+                            Hoje temos HUB´s de produção nas seguintes cidades:
+                            <ul>
+                                <li>- <b>Bahia:</b> Feira de Santana, Vitoria da Conquista, Jequie, Ilhes, Valença, Guanambi</li>
+                                <li>- <b>São Paulo:</b> Marilia, Bauru, São Paulo</li>
+                                <li>- <b>Rio de Janeiro:</b> Rio de Janeiro</li>
+                            </ul>
+                            <br>
+                            Você pode fazer parte desse movimento e ajudar a combater o Corona vírus de duas formas:
+                            <br>- Sendo um voluntário
+                            <br>- Realizando uma doação
                         </p>
                     </div>
                 </div><!-- end col-lg-7 -->
@@ -199,7 +205,7 @@ $pct = $results["progresso"];
                                 <p class="service__desc">
                                     Projeto industrial para injeção na industria. EPI´s Bahia.
                                 </p>
-                                <a target="_blank" href="http://vaka.me/956493" class="theme-btn">Doar para EPI´s na Bahia.</a>
+                                <a target="_blank" href="http://vaka.me/956493" class="theme-btn">Doar para EPI´s na Bahia</a>
                             </div>
                         </div><!-- end service-item-inner -->
                     </div><!-- end service-item -->
@@ -239,7 +245,7 @@ $pct = $results["progresso"];
                                 <p class="service__desc">
                                     Faça parte do movimento e ajude as pessoas da cidade de Marília-SP
                                 </p>
-                                <a target="_blank" href="http://vaka.me/966668" class="theme-btn">Doar para a cidade de Marília.</a>
+                                <a target="_blank" href="http://vaka.me/966668" class="theme-btn">Doar para a cidade de Marília</a>
                             </div>
                         </div><!-- end service-item-inner -->
                     </div><!-- end service-item -->
@@ -254,7 +260,8 @@ $pct = $results["progresso"];
                                 <p class="service__desc">
                                     Faça parte do movimento e ajude as pessoas da cidade de Bauru-SP.
                                 </p>
-                                <a target="_blank" href="http://vaka.me/968449" class="theme-btn">Doar para a cidade de Bauru.</a>
+                                <!-- ESTÃO MUDANDO DE PLATAFORMA -->
+                                <!-- <a target="_blank" href="http://vaka.me/968449" class="theme-btn">Doar para a cidade de Bauru.</a> -->
                             </div>
                         </div><!-- end service-item-inner -->
                     </div><!-- end service-item -->
@@ -265,9 +272,22 @@ $pct = $results["progresso"];
                             <div class="service-content">
                                 <h4 class="service__title">Ilhéus, Bahia</h4>
                                 <p class="service__desc">
-                                    Faça parte do movimento e ajude as pessoas desse Hub.
+                                    Faça parte do movimento e ajude as pessoas da cidade de ILHÉUS-BA.
                                 </p>
-                                <!-- <a target="_blank" href="https://chat.whatsapp.com/DcL189qM2WIHr8K0X1THmf" class="theme-btn" >Faça parte</a> -->
+                                <a target="_blank" href="http://vaka.me/967777" class="theme-btn">Doar para a cidade de Ilhéus</a>
+                            </div>
+                        </div><!-- end service-item-inner -->
+                    </div><!-- end service-item -->
+                </div><!-- end col -->
+                <div class="col">
+                    <div class="service-item service-item1">
+                        <div class="service-item-inner">
+                            <div class="service-content">
+                                <h4 class="service__title">Itabuna, Bahia</h4>
+                                <p class="service__desc">
+                                    Faça parte do movimento e ajude as pessoas da cidade de ITABUNA-BA.
+                                </p>
+                                <a target="_blank" href="http://vaka.me/967777" class="theme-btn">Doar para a cidade de Itabuna</a>
                             </div>
                         </div><!-- end service-item-inner -->
                     </div><!-- end service-item -->
@@ -285,6 +305,8 @@ $pct = $results["progresso"];
                         </div><!-- end service-item-inner -->
                     </div><!-- end service-item -->
                 </div><!-- end col -->
+            </div>
+            <div class="row service-wrap">
                 <div class="col">
                     <div class="service-item service-item1">
                         <div class="service-item-inner">
@@ -298,7 +320,9 @@ $pct = $results["progresso"];
                         </div><!-- end service-item-inner -->
                     </div><!-- end service-item -->
                 </div><!-- end col -->
-
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
             </div>
             <div class="row service-wrap">
                 <div class="col">
@@ -601,6 +625,12 @@ $pct = $results["progresso"];
                     <a href="http://instagram.com/jumistroni" target="_blank">Juliana mistroni Ramos <small class="instagram">@jumistroni</small><small class="empresa">Autônoma</small></a>
                     <a href="http://instagram.com/nando_guarilha" target="_blank">Luiz Fernando Braga Guarilha <small class="instagram">nando_guarilha</small><small class="empresa">BlueOne 3D </small></a>
                     <a href="http://instagram.com/amandaferreirabasso" target="_blank">Amanda Ferreira dos santos<small class="instagram">@amandaferreirabasso</small><small class="empresa">Universidade Federal do sul da Bahia</small></a>
+                    <a href="http://instagram.com/unclefinado" target="_blank">Verônica Popov<small class="instagram">@unclefinado</small></a>
+                    <a href="http://instagram.com/vinisampaioalmeida" target="_blank">Vinicius Sampaio<small class="instagram">@vinisampaioalmeida</small><small class="empresa">UFBA/FORD</small></a>
+                    <a href="http://instagram.com/superlohcarvalho" target="_blank">Loraine A Carvalho<small class="instagram">@superlohcarvalho</small><small class="empresa">Band Tv</small></a>
+                    <a href="http://instagram.com/sheilapereiras" target="_blank">Sheila Pereira<small class="instagram">@sheilapereiras</small><small class="empresa">Meio Mundo Comunicação, Tecnologia e Inovação</small></a>
+                    <a href="http://instagram.com/marcelmarumaia" target="_blank">Marcel Maia<small class="instagram">@marcelmarumaia</small><small class="empresa">AdMobilize</small></a>
+                    <a href="http://instagram.com/jonataweber" target="_blank">Jonata Weber<small class="instagram">@jonataweber</small><small class="empresa">Skilopay</small></a>
                 </div>
             </div><!-- end row -->
         </div><!-- end container -->
