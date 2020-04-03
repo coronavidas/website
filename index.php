@@ -148,11 +148,11 @@ $pct = $results["progresso"];
                 <div class="col-lg-7">
                     <div class="world-content">
                         <p class="world__desc">
-                            Somos um coletivo de pessoas voluntárias engajadas em entregar Equipamento de Proteção Individual - Protetor facial conhecido como Face Shield - aos profissionais de Saúde de todo o Brasil. Esse EPI evita o contato com gotículas que possam atingir boca, nariz e olhos. Todo recurso arrecadado será utilizado única e exclusivamente para doação. Pretendemos entregar até 200.000 (duzentas mil equipamentos na Bahia). Atualmente estamos finalizando o Molde de injeção. Todo recurso arrecadado será utilizado única e exclusivamente para doação.<br /><br />
+                            Somos um coletivo de pessoas voluntárias engajadas em entregar Equipamento de Proteção Individual - Protetor facial conhecido como Face Shield - aos profissionais de Saúde de todo o Brasil. Esse EPI evita o contato com gotículas que possam atingir boca, nariz e olhos. Todo recurso arrecadado será utilizado única e exclusivamente para doação. Pretendemos entregar até 200.000 (duzentos mil equipamentos). Atualmente estamos finalizando o Molde de injeção. Todo recurso arrecadado será utilizado única e exclusivamente para doação.<br /><br />
                             Hoje temos HUB´s de produção nas seguintes cidades:
                             <ul>
                                 <li>- <b>Bahia:</b> Feira de Santana, Vitoria da Conquista, Jequie, Ilhes, Valença, Guanambi</li>
-                                <li>- <b>São Paulo:</b> Marilia, Bauru, São Paulo</li>
+                                <li>- <b>São Paulo:</b> Marilia, Bauru, Vale do Paraíba, São Paulo</li>
                                 <li>- <b>Rio de Janeiro:</b> Rio de Janeiro</li>
                             </ul>
                             <br>
@@ -270,6 +270,19 @@ $pct = $results["progresso"];
                     <div class="service-item service-item1">
                         <div class="service-item-inner">
                             <div class="service-content">
+                                <h4 class="service__title">Vale do Paraíba, SP</h4>
+                                <p class="service__desc">
+                                    Faça parte do movimento e ajude as pessoas da cidade de Vale do Paraíba-SP.
+                                </p>
+                                <a target="_blank" href="https://www.kickante.com.br/campanhas/corona-vidas-vale-do-paraiba" class="theme-btn">Doar para cidade Vale do Paraíba</a>
+                            </div>
+                        </div><!-- end service-item-inner -->
+                    </div><!-- end service-item -->
+                </div><!-- end col -->
+                <div class="col">
+                    <div class="service-item service-item1">
+                        <div class="service-item-inner">
+                            <div class="service-content">
                                 <h4 class="service__title">Ilhéus, Bahia</h4>
                                 <p class="service__desc">
                                     Faça parte do movimento e ajude as pessoas da cidade de ILHÉUS-BA.
@@ -292,6 +305,8 @@ $pct = $results["progresso"];
                         </div><!-- end service-item-inner -->
                     </div><!-- end service-item -->
                 </div><!-- end col -->
+            </div>
+            <div class="row service-wrap">
                 <div class="col">
                     <div class="service-item service-item1">
                         <div class="service-item-inner">
@@ -305,8 +320,6 @@ $pct = $results["progresso"];
                         </div><!-- end service-item-inner -->
                     </div><!-- end service-item -->
                 </div><!-- end col -->
-            </div>
-            <div class="row service-wrap">
                 <div class="col">
                     <div class="service-item service-item1">
                         <div class="service-item-inner">
