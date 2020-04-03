@@ -162,11 +162,17 @@ $pct = round(($arrecadado / $meta) * 100);
                 <div class="col-lg-7">
                     <div class="world-content">
                         <p class="world__desc">
-                            Somos um coletivo de pessoas voluntárias engajadas em em entregar Equipamento de Proteção Individual - Protetor facial conhecido como Face Shield aos profissionais de Saúde no Estado da Bahia. Esse EPI evita o contato com gotículas que possam atingir boca, nariz e olhos. Pretendemos entregar até 200.000 (duzentas mil equipamentos na Bahia). Atualmente estamos finalizando o Molde de injeção. Todo recurso arrecadado será utilizado única e exclusivamente para doação.<br>
-                            Hoje temos HUB´s de produção nas seguintes cidades: <b>Bahia:</b> Feira de Santana-Ba, Vitoria da Conquista-Ba, Jequie-Ba, Ilhes-Ba, Valença-Ba, Guanambi-Ba. <b> São Paulo </b> Marilia, Bauru, São Paulo. <b> Rio de Janeiro </b> Rio de Janeiro.
-                            Você pode fazer parte desse movimento e ajudar a combater o Corona vírus de duas formas.
-                            <br>Sendo um voluntário
-                            <br>Realizando uma doação.
+                            Somos um coletivo de pessoas voluntárias engajadas em entregar Equipamento de Proteção Individual - Protetor facial conhecido como Face Shield - aos profissionais de Saúde de todo o Brasil. Esse EPI evita o contato com gotículas que possam atingir boca, nariz e olhos. Todo recurso arrecadado será utilizado única e exclusivamente para doação. Pretendemos entregar até 200.000 (duzentas mil equipamentos na Bahia). Atualmente estamos finalizando o Molde de injeção. Todo recurso arrecadado será utilizado única e exclusivamente para doação.<br /><br />
+                            Hoje temos HUB´s de produção nas seguintes cidades:
+                            <ul>
+                                <li>- <b>Bahia:</b> Feira de Santana, Vitoria da Conquista, Jequie, Ilhes, Valença, Guanambi</li>
+                                <li>- <b>São Paulo:</b> Marilia, Bauru, São Paulo</li>
+                                <li>- <b>Rio de Janeiro:</b> Rio de Janeiro</li>
+                            </ul>
+                            <br>
+                            Você pode fazer parte desse movimento e ajudar a combater o Corona vírus de duas formas:
+                            <br>- Sendo um voluntário
+                            <br>- Realizando uma doação
                         </p>
                     </div>
                 </div><!-- end col-lg-7 -->
