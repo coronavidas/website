@@ -6412,6 +6412,7 @@ a:hover {
   transform: translateY(-10px);
 }
 
+<<<<<<< HEAD
 .equipe {
   display: flex;
   flex-direction: column;
@@ -6424,3 +6425,26 @@ a:hover {
 .equipe__email {
   font-weight: 700;
 }
+=======
+.equipe{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #e36955;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.equipe__email{
+    font-weight: 700;
+}
+
+.social-media a {
+    color: white;
+    font-size: 30px;
+}
+
+.social-media a:hover {
+    color: #f1ae44
+}
+>>>>>>> master

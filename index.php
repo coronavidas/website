@@ -1,29 +1,15 @@
 <?php
-$dom = new DOMDocument();
-@$dom->loadHtml(file_get_contents('https://www.vakinha.com.br/vaquinha/protetor-facial-para-profissionais-de-saude-contra-o-covid-19-menilde-araujo-silva-biao'));
-$finder = new DomXPath($dom);
-$classname_VALOR_ARRECADADO = "sc-htpNat fKphHb";
-$VALOR_ARRECADADO = $finder->query('/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div/div[3]/div/span');
 
-$classname_META = "sc-EHOje jFQOHu";
-$META = $finder->query('/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div/div[3]/div/div[2]/span');
-
-$classname_APOIADORES = "sc-EHOje jFQOHu";
-$APOIADORES = $finder->query('/html/body/div[1]/div[1]/div[2]/div[2]/div/div/div/div[3]/div/div[3]/span');
-
-
-$arrecadado = $VALOR_ARRECADADO[0]->nodeValue;
-$arrecadado = explode('R$', $arrecadado);
-$arrecadado = (float) str_replace('.', '', $arrecadado[1]);
+require_once __DIR__ . "/src/vakinha_crawler.php";
 
 $apoiadores = 62;
 
-$meta = $META[0]->nodeValue;
-$meta = explode('R$', $meta);
-$meta = (float) str_replace('.', '', $meta[1]);
+$vakinha_fsa = new VakinhaCrawler("https://www.vakinha.com.br/vaquinha/protetor-facial-para-profissionais-de-saude-contra-o-covid-19-menilde-araujo-silva-biao");
+$results = $vakinha_fsa->scrap()->toArray();
 
-$pct = round(($arrecadado / $meta) * 100);
-
+$arrecadado = $results["arrecadado"];
+$meta = $results["meta"];
+$pct = $results["progresso"];
 
 ?>
 <!DOCTYPE html>
@@ -448,6 +434,22 @@ $pct = round(($arrecadado / $meta) * 100);
                         <div class="gallery-item">
                             <img src="images/galeria/coronavidas06.jpg" alt="">
                             <a href="images/galeria/coronavidas06.jpg" data-lightbox="roadtrip" data-title="O equipamento"> <span class="gallery-icon"></span></a>
+                        </div><!-- end gallery-item -->
+                        <div class="gallery-item">
+                            <img src="images/galeria/coronavidas07.jpg" alt="">
+                            <a href="images/galeria/coronavidas07.jpg" data-lightbox="roadtrip" data-title="O equipamento"> <span class="gallery-icon"></span></a>
+                        </div><!-- end gallery-item -->
+                        <div class="gallery-item">
+                            <img src="images/galeria/coronavidas08.jpg" alt="">
+                            <a href="images/galeria/coronavidas08.jpg" data-lightbox="roadtrip" data-title="O equipamento"> <span class="gallery-icon"></span></a>
+                        </div><!-- end gallery-item -->
+                        <div class="gallery-item">
+                            <img src="images/galeria/coronavidas09.jpg" alt="">
+                            <a href="images/galeria/coronavidas09.jpg" data-lightbox="roadtrip" data-title="O equipamento"> <span class="gallery-icon"></span></a>
+                        </div><!-- end gallery-item -->
+                        <div class="gallery-item">
+                            <img src="images/galeria/coronavidas10.jpg" alt="">
+                            <a href="images/galeria/coronavidas10.jpg" data-lightbox="roadtrip" data-title="O equipamento"> <span class="gallery-icon"></span></a>
                         </div><!-- end gallery-item -->
                     </div><!-- end gallery-carousel -->
                 </div><!-- end col-lg-12 -->
