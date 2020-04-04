@@ -148,7 +148,7 @@ $pct = $results["progresso"];
                 <div class="col-lg-7">
                     <div class="world-content">
                         <p class="world__desc">
-                            Somos um coletivo de pessoas voluntárias engajadas em entregar Barreiras Mecânicas Contra Respingos - Máscara facial conhecida como Face Shield - aos profissionais de Saúde de todo o Brasil. Ele evita o contato com gotículas que possam atingir boca, nariz e olhos. Todo recurso arrecadado será utilizado única e exclusivamente para doação. Pretendemos entregar até 200.000 (duzentos mil mascáras). Atualmente estamos finalizando o Molde de injeção. Todo recurso arrecadado será utilizado única e exclusivamente para doação.<br /><br />
+                            Somos um coletivo de pessoas voluntárias engajadas em entregar Barreiras Mecânicas Contra Respingos - Máscara facial conhecida como Face Shield - aos profissionais de Saúde de todo o Brasil. Ele evita o contato com gotículas que possam atingir boca, nariz e olhos. Todo recurso arrecadado será utilizado única e exclusivamente para doação. Pretendemos entregar até 200.000 (duzentos mil máscaras). Atualmente estamos finalizando o Molde de injeção. Todo recurso arrecadado será utilizado única e exclusivamente para doação.<br /><br />
                             Hoje temos HUBs de produção nas seguintes cidades:
                             <ul>
                                 <li>- <b>Bahia:</b> Feira de Santana, Vitoria da Conquista, Jequie, Ilhes, Valença, Guanambi</li>
@@ -205,7 +205,7 @@ $pct = $results["progresso"];
                                 <p class="service__desc">
                                     Projeto industrial para injeção na industria - Bahia.
                                 </p>
-                                <a target="_blank" href="http://vaka.me/956493" class="theme-btn">Doar para mascáras na Bahia</a>
+                                <a target="_blank" href="http://vaka.me/956493" class="theme-btn">Doar para máscaras na Bahia</a>
                             </div>
                         </div><!-- end service-item-inner -->
                     </div><!-- end service-item -->
