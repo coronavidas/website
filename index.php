@@ -606,6 +606,18 @@ $pct = $results["progresso"];
                             <img src="images/galeria/coronavidas10.jpg" alt="">
                             <a href="images/galeria/coronavidas10.jpg" data-lightbox="roadtrip" data-title="O equipamento"> <span class="gallery-icon"></span></a>
                         </div><!-- end gallery-item -->
+                        <div class="gallery-item">
+                            <img src="images/galeria/coronavidas11.png" alt="">
+                            <a href="images/galeria/coronavidas11.png" data-lightbox="roadtrip" data-title="O equipamento"> <span class="gallery-icon"></span></a>
+                        </div><!-- end gallery-item -->
+                        <div class="gallery-item">
+                            <img src="images/galeria/coronavidas12.png" alt="">
+                            <a href="images/galeria/coronavidas12.png" data-lightbox="roadtrip" data-title="O equipamento"> <span class="gallery-icon"></span></a>
+                        </div><!-- end gallery-item -->
+                        <div class="gallery-item">
+                            <img src="images/galeria/coronavidas13.png" alt="">
+                            <a href="images/galeria/coronavidas13.png" data-lightbox="roadtrip" data-title="O equipamento"> <span class="gallery-icon"></span></a>
+                        </div><!-- end gallery-item -->
                     </div><!-- end gallery-carousel -->
                 </div><!-- end col-lg-12 -->
             </div><!-- end row -->
