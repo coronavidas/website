@@ -76,7 +76,7 @@ $pct = $results["progresso"];
                                     <div class="slider-heading">
                                         <p class="slider__meta">Ajude os profissionais de saúde</p>
                                         <h2 class="slider__title">Nos ajude a combater o coronavírus!</h2>
-                                        <a target="_blank" href="http://vaka.me/956493" class="theme-btn">DOAR AGORA</a>
+                                        <a href="#projetos" class="theme-btn">DOAR AGORA</a>
                                         <a target="_blank" href="https://chat.whatsapp.com/DcL189qM2WIHr8K0X1THmf" class="theme-btn" style="margin-left: 30px">SEJA VOLUNTÁRIO</a>
 
                                     </div>
@@ -172,7 +172,7 @@ $pct = $results["progresso"];
     <!--================================
          START SERVICE AREA
 =================================-->
-    <section class="service-area text-center">
+    <section id="projetos" class="service-area text-center">
         <img src="images/heart-icon1.png" alt="" class="heart-icon heart-icon-1">
         <img src="images/heart-icon2.png" alt="" class="heart-icon heart-icon-2">
         <img src="images/heart-icon3.png" alt="" class="heart-icon heart-icon-3">

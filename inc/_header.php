@@ -13,8 +13,8 @@
                             </a>
                         </div><!-- .ostion-logo -->
                         <div class="header-btn ml-auto">
-                        <a target="_blank" href="http://vaka.me/956493" class="theme-btn">DOAR AGORA</a>
-                                    <a target="_blank" href="https://chat.whatsapp.com/DcL189qM2WIHr8K0X1THmf" class="theme-btn" style="margin-left: 30px">SEJA VOLUNTÁRIO</a>
+                            <a href="index.php#projetos" class="theme-btn">DOAR AGORA</a>
+                            <a target="_blank" href="https://chat.whatsapp.com/DcL189qM2WIHr8K0X1THmf" class="theme-btn" style="margin-left: 30px">SEJA VOLUNTÁRIO</a>
                         </div>
                     </div><!-- end logo-action -->
                 </div><!-- site-branding -->
@@ -62,11 +62,11 @@
         </div><!-- end humburger-menu -->
         <div class="side-menu-wrap">
             <ul class="side-menu-ul">
-              <li class="sidenav__item"><a href="index.php">Home</a></li>
-              <li class="sidenav__item"><a href="contato.php">Contato</a></li>
+                <li class="sidenav__item"><a href="index.php">Home</a></li>
+                <li class="sidenav__item"><a href="contato.php">Contato</a></li>
             </ul>
             <div class="side-btn">
-                <a href="http://vaka.me/956493" class="theme-btn">DOAR AGORA</a>
+                <a href="index.php#projetos" class="theme-btn">DOAR AGORA</a>
                 <a target="_blank" href="https://chat.whatsapp.com/DcL189qM2WIHr8K0X1THmf" class="theme-btn" style="margin-top: 30px">SEJA VOLUNTÁRIO</a>
             </div>
         </div><!-- end side-menu-wrap -->
