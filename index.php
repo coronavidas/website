@@ -10,7 +10,7 @@ $results = $vakinha_fsa->scrap()->toArray();
 $arrecadado = $results["arrecadado"];
 $meta = $results["meta"];
 $pct = $results["progresso"];
-
+$doar_agora_link = null;
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -76,7 +76,7 @@ $pct = $results["progresso"];
                                     <div class="slider-heading">
                                         <p class="slider__meta">Ajude os profissionais de saúde</p>
                                         <h2 class="slider__title">Nos ajude a combater o coronavírus!</h2>
-                                        <a href="#projetos" class="theme-btn">DOAR AGORA</a>
+                                        <a href="<?= $doar_agora_link ?: '#projetos' ?>" class="theme-btn">DOAR AGORA</a>
                                         <a target="_blank" href="https://chat.whatsapp.com/DcL189qM2WIHr8K0X1THmf" class="theme-btn" style="margin-left: 30px">SEJA VOLUNTÁRIO</a>
 
                                     </div>

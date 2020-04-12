@@ -13,7 +13,7 @@
                             </a>
                         </div><!-- .ostion-logo -->
                         <div class="header-btn ml-auto">
-                            <a href="index.php#projetos" class="theme-btn">DOAR AGORA</a>
+                            <a href="<?= $doar_agora_link ?: '#projetos' ?>" class="theme-btn">DOAR AGORA</a>
                             <a target="_blank" href="https://chat.whatsapp.com/DcL189qM2WIHr8K0X1THmf" class="theme-btn" style="margin-left: 30px">SEJA VOLUNTÁRIO</a>
                         </div>
                     </div><!-- end logo-action -->
@@ -66,7 +66,7 @@
                 <li class="sidenav__item"><a href="contato.php">Contato</a></li>
             </ul>
             <div class="side-btn">
-                <a href="index.php#projetos" class="theme-btn">DOAR AGORA</a>
+                <a href="<?= $doar_agora_link ?: '#projetos' ?>" class="theme-btn">DOAR AGORA</a>
                 <a target="_blank" href="https://chat.whatsapp.com/DcL189qM2WIHr8K0X1THmf" class="theme-btn" style="margin-top: 30px">SEJA VOLUNTÁRIO</a>
             </div>
         </div><!-- end side-menu-wrap -->
