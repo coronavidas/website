@@ -180,7 +180,7 @@ $doar_agora_link = null;
                         <div class="section-icon">
                             <img src="images/section-icon.png" alt="section-icon">
                         </div>
-                        <h2 class="section__title">Colaboradores</h2> 
+                        <h2 class="section__title">Empresas que acreditam no CoronaVidas</h2> 
                     </div>
                 </div>
             </div>
