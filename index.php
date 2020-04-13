@@ -272,9 +272,9 @@ $doar_agora_link = null;
                             <div class="service-content">
                                 <h4 class="service__title">Vale do Paraíba, SP</h4>
                                 <p class="service__desc">
-                                    Faça parte do movimento e ajude as pessoas da cidade de Vale do Paraíba-SP.
+                                    Faça parte do movimento e ajude as pessoas das cidades do Vale do Paraíba-SP.
                                 </p>
-                                <a target="_blank" href="https://www.kickante.com.br/campanhas/corona-vidas-vale-do-paraiba" class="theme-btn">Doar para cidade Vale do Paraíba</a>
+                                <a target="_blank" href="https://www.kickante.com.br/campanhas/corona-vidas-vale-do-paraiba" class="theme-btn">Doar para as cidades do Vale do Paraíba</a>
                             </div>
                         </div><!-- end service-item-inner -->
                     </div><!-- end service-item -->
