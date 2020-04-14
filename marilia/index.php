@@ -61,13 +61,13 @@
 
                 <div class="col-md-3">
                   <div class="cause shadow-sm">
-                    <a target="_blank" href="https://pay.juno.com.br/checkout.html?code=5FE749A3FB0EF0B9" class="cause-link d-block"><img src="marilia/images/100reais.jpg" alt="Image" class="img-fluid"></a>
+                    <a target="_blank" href="https://pay.juno.com.br/checkout.html?code=5A3F3431272E8A2B" class="cause-link d-block"><img src="marilia/images/100reais.jpg" alt="Image" class="img-fluid"></a>
                   </div>
                 </div>
         
                 <div class="col-md-3">
                   <div class="cause shadow-sm">
-                    <a target="_blank" href="https://pay.juno.com.br/checkout.html?code=21F06874A3D18DD5" class="cause-link d-block"><img src="marilia/images/1000reais.jpg" alt="Image" class="img-fluid"></a>
+                    <a target="_blank" href="https://pay.juno.com.br/checkout.html?code=B4DDE8CB7C858D12" class="cause-link d-block"><img src="marilia/images/1000reais.jpg" alt="Image" class="img-fluid"></a>
                   </div>
                 </div>
                 
