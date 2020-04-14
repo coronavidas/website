@@ -169,72 +169,6 @@ $doar_agora_link = null;
       END MAKE WORLD  AREA
 =================================-->
 
-<!--================================
-         START CONTRIBUTORS AREA
-=================================-->
-    <section class="contribuitors-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <div class="section-heading">
-                        <div class="section-icon">
-                            <img src="images/section-icon.png" alt="section-icon">
-                        </div>
-                        <h2 class="section__title">Empresas que acreditam no CoronaVidas</h2> 
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-3 mx-auto">
-                    <img src="images/colaboradores/governo_do_estado.png">
-                </div>
-                <div class="col-md-3 mx-auto">
-                    <img src="images/colaboradores/brasfrut.png">
-                </div>
-                <div class="col-md-3 mx-auto">
-                    <img src="images/colaboradores/braskem.png">
-                </div>
-                <div class="col-md-3 mx-auto">
-                    <img src="images/colaboradores/chiacchio.png">
-                </div>
-                <div class="col-md-3 mx-auto">
-                    <img src="images/colaboradores/cifs.png">
-                </div>
-                <div class="col-md-3 mx-auto">
-                    <img src="images/colaboradores/fabrimalhas.png">
-                </div>
-                <div class="col-md-3 mx-auto">
-                    <img src="images/colaboradores/injeplast.png">
-                </div>
-                <div class="col-md-3 mx-auto">
-                    <img src="images/colaboradores/instituto_pepo.png">
-                </div>
-                <div class="col-md-3 mx-auto">
-                    <img src="images/colaboradores/kablin.png">
-                </div>
-                <div class="col-md-3 mx-auto">
-                    <img src="images/colaboradores/md_wood.png">
-                </div>
-                <div class="col-md-3 mx-auto">
-                    <img src="images/colaboradores/ol_papeis.png">
-                </div>
-                <div class="col-md-3 mx-auto">
-                    <img src="images/colaboradores/tama.png">
-                </div>
-                <div class="col-md-3 mx-auto">
-                    <img src="images/colaboradores/vipal.png">
-                </div>
-                <div class="col-md-3 mx-auto">
-                    <img src="images/colaboradores/vm_etiquetas.png">
-                </div>
-            </div>
-        </div>
-    </section>
-
-<!--================================
-      END CONTRIBUTORS  AREA
-=================================-->
-
     <!--================================
          START SERVICE AREA
 =================================-->
@@ -871,6 +805,74 @@ $doar_agora_link = null;
     <!--================================
       END SERVICE AREA
 =================================-->
+
+
+<!--================================
+         START CONTRIBUTORS AREA
+=================================-->
+<section class="contribuitors-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="section-heading">
+                        <div class="section-icon">
+                            <img src="images/section-icon.png" alt="section-icon">
+                        </div>
+                        <h2 class="section__title">Empresas que acreditam no CoronaVidas</h2> 
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mx-auto">
+                    <img src="images/colaboradores/governo_do_estado.png">
+                </div>
+                <div class="col-md-3 mx-auto">
+                    <img src="images/colaboradores/brasfrut.png">
+                </div>
+                <div class="col-md-3 mx-auto">
+                    <img src="images/colaboradores/braskem.png">
+                </div>
+                <div class="col-md-3 mx-auto">
+                    <img src="images/colaboradores/chiacchio.png">
+                </div>
+                <div class="col-md-3 mx-auto">
+                    <img src="images/colaboradores/cifs.png">
+                </div>
+                <div class="col-md-3 mx-auto">
+                    <img src="images/colaboradores/fabrimalhas.png">
+                </div>
+                <div class="col-md-3 mx-auto">
+                    <img src="images/colaboradores/injeplast.png">
+                </div>
+                <div class="col-md-3 mx-auto">
+                    <img src="images/colaboradores/instituto_pepo.png">
+                </div>
+                <div class="col-md-3 mx-auto">
+                    <img src="images/colaboradores/kablin.png">
+                </div>
+                <div class="col-md-3 mx-auto">
+                    <img src="images/colaboradores/md_wood.png">
+                </div>
+                <div class="col-md-3 mx-auto">
+                    <img src="images/colaboradores/ol_papeis.png">
+                </div>
+                <div class="col-md-3 mx-auto">
+                    <img src="images/colaboradores/tama.png">
+                </div>
+                <div class="col-md-3 mx-auto">
+                    <img src="images/colaboradores/vipal.png">
+                </div>
+                <div class="col-md-3 mx-auto">
+                    <img src="images/colaboradores/vm_etiquetas.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--================================
+      END CONTRIBUTORS  AREA
+=================================-->
+
 
     <!-- ================================
        START FOOTER AREA
