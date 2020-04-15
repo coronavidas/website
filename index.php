@@ -245,7 +245,7 @@ $doar_agora_link = null;
                                 <p class="service__desc">
                                     Faça parte do movimento e ajude as pessoas da cidade de Marília-SP
                                 </p>
-                                <a target="_blank" href="http://vaka.me/966668" class="theme-btn">Doar para a cidade de Marília</a>
+                                <a target="_blank" href="./marilia" class="theme-btn">Doar para a cidade de Marília</a>
                             </div>
                         </div><!-- end service-item-inner -->
                     </div><!-- end service-item -->
@@ -261,7 +261,7 @@ $doar_agora_link = null;
                                     Faça parte do movimento e ajude as pessoas da cidade de Bauru-SP.
                                 </p>
                                 <!-- ESTÃO MUDANDO DE PLATAFORMA -->
-                                <!-- <a target="_blank" href="http://vaka.me/968449" class="theme-btn">Doar para a cidade de Bauru.</a> -->
+                                <!-- <a target="_blank" href="./sp" class="theme-btn">Doar para a cidade de Marília</a> -->
                             </div>
                         </div><!-- end service-item-inner -->
                     </div><!-- end service-item -->
@@ -311,6 +311,19 @@ $doar_agora_link = null;
                     <div class="service-item service-item1">
                         <div class="service-item-inner">
                             <div class="service-content">
+                                <h4 class="service__title">São Paulo, SP</h4>
+                                <p class="service__desc">
+                                    Faça parte do movimento e ajude as pessoas das cidades do São Paulo-SP.
+                                </p>
+                                <a target="_blank" href="./sp" class="theme-btn">Doar para as cidades do Vale do Paraíba</a>
+                            </div>
+                        </div><!-- end service-item-inner -->
+                    </div><!-- end service-item -->
+                </div><!-- end col -->
+                <div class="col">
+                    <div class="service-item service-item1">
+                        <div class="service-item-inner">
+                            <div class="service-content">
                                 <h4 class="service__title">Valença, Bahia</h4>
                                 <p class="service__desc">
                                     Faça parte do movimento e ajude as pessoas desse Hub.
@@ -333,8 +346,6 @@ $doar_agora_link = null;
                         </div><!-- end service-item-inner -->
                     </div><!-- end service-item -->
                 </div><!-- end col -->
-                <div class="col"></div>
-                <div class="col"></div>
                 <div class="col"></div>
             </div>
             <div class="row service-wrap">
