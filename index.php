@@ -767,7 +767,7 @@ $doar_agora_link = null;
                     <a href="http://instagram.com/netosimasoficial" target="_blank">Neto Simas<small class="instagram">@netosimasoficial</small><small class="empresa">Prime In-Tech</small></a>
                     <a href="http://instagram.com/flavio_maia.eng" target="_blank">Flávio Couvo Teixeira Maia<small class="instagram">@flavio_maia.eng</small></a>
                     <a href="http://instagram.com/lucianopestanasantos" target="_blank">Luciano Pestana Santos<small class="instagram">@lucianopestanasantos</small></a>
-                    <a href="http://instagram.com/antoniocordeiro9" target="_blank">Antônio Cordeiro<small class="instagram">@antoniocordeiro9</small><small class="empresa">IFBA</small></a>
+                    <a href="http://instagram.com/antoniocordeiro9" target="_blank">IFBA/UNOPAR Candeias<small class="instagram">@antoniocordeiro9</small><small class="empresa">IFBA</small></a>
                     <a href="http://instagram.com/jeidsonMarques" target="_blank">Prof Jeidson Marques /Prof Audi<small class="instagram">@jeidsonMarques</small><small class="empresa">UNEF</small></a>
                     <a href="http://instagram.com/Vinigeira" target="_blank">Vinícius Bispo<small class="instagram">@vinigeira</small></a>
                     <a href="http://instagram.com/alebranco" target="_blank">Alexandre branco<small class="instagram">@alebranco</small></a>
