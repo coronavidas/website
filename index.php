@@ -1,15 +1,4 @@
 <?php
-
-require_once __DIR__ . "/src/vakinha_crawler.php";
-
-$apoiadores = 62;
-
-$vakinha_fsa = new VakinhaCrawler("https://www.vakinha.com.br/vaquinha/protetor-facial-para-profissionais-de-saude-contra-o-covid-19-menilde-araujo-silva-biao");
-$results = $vakinha_fsa->scrap()->toArray();
-
-$arrecadado = $results["arrecadado"];
-$meta = $results["meta"];
-$pct = $results["progresso"];
 $doar_agora_link = null;
 ?>
 <!DOCTYPE html>
@@ -96,38 +85,8 @@ $doar_agora_link = null;
     <!--================================
          START GIVE AREA
 =================================-->
-    <section class="give-area skill-area">
-        <div class="container-fluid">
-            <div class="row give-static-wrap">
-                <div class="col-lg-3">
-                    <div class="give-title-box section-heading" style="height:100%">
-                        <h2 class="give__title section__title text__white" style="font-size: 36px">Doações realizadas<br> até hoje.</h2>
-                    </div>
-                </div><!-- end col-lg-3 -->
-                <div class="col-lg-9">
-                    <div class="give-progress-box">
-                        <div class="skill-item">
-                            <div class="skills">
-                                <div class="skill">
-                                    <h2 class="skill__title">R$ <?php echo number_format($arrecadado, 2, ',', '.'); ?></h2>
-                                    <span><?php echo round($pct); ?>%</span>
-                                    <div class="progress_bg">
-                                        <div class="progress_bar" style="width: <?php echo round($pct); ?>%"></div>
-                                    </div>
-                                    <div class="skill-meta">
-                                        <ul>
-                                            <li>de R$ <?php echo number_format($meta, 2, ',', '.'); ?></li>
-                                            <!-- <li><?php echo $apoiadores; ?> apoiadores</li> -->
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div><!-- end skills-->
-                        </div><!-- end skill-item -->
-                    </div>
-                </div><!-- end col-lg-9 -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </section><!-- end give-area -->
+    <?php //include("inc/give_area.php") 
+    ?>
     <!--================================
         END GIVE AREA
 =================================-->
@@ -154,6 +113,7 @@ $doar_agora_link = null;
                                 <li>- <b>Bahia:</b> Feira de Santana, Vitoria da Conquista, Jequie, Ilhes, Valença, Guanambi</li>
                                 <li>- <b>São Paulo:</b> Marilia, Bauru, Vale do Paraíba, São Paulo</li>
                                 <li>- <b>Rio de Janeiro:</b> Rio de Janeiro</li>
+                                <li>- <b>Amazonas:</b> Manaus</li>
                             </ul>
                             <br>
                             Você pode fazer parte desse movimento e ajudar a combater o Corona vírus de duas formas:
@@ -192,7 +152,6 @@ $doar_agora_link = null;
                             <img src="images/section-icon.png" alt="section-icon">
                         </div>
                         <h2 class="section__title">Todo o nosso trabalho é voluntário! Faça uma doação para compra de matéria prima na sua CIDADE.</h2>
-                        <p class="section__meta">SAIBA COMO AJUDAR</p>
                     </div><!-- end section-heading -->
                 </div><!-- end col-lg-8 -->
             </div><!-- end row -->
@@ -205,7 +164,7 @@ $doar_agora_link = null;
                                 <p class="service__desc">
                                     Projeto industrial para injeção na industria - Bahia.
                                 </p>
-                                <a target="_blank" href="http://vaka.me/956493" class="theme-btn">Doar para máscaras na Bahia</a>
+                                <a target="_blank" href="http://vaka.me/956493" class="theme-btn">Doar para Feira de Santana</a>
                             </div>
                         </div><!-- end service-item-inner -->
                     </div><!-- end service-item -->
@@ -245,7 +204,7 @@ $doar_agora_link = null;
                                 <p class="service__desc">
                                     Faça parte do movimento e ajude as pessoas da cidade de Marília-SP
                                 </p>
-                                <a target="_blank" href="./marilia" class="theme-btn">Doar para a cidade de Marília</a>
+                                <a target="_blank" href="https://coronavidas.net/marilia" class="theme-btn">Doar para a cidade de Marília</a>
                             </div>
                         </div><!-- end service-item-inner -->
                     </div><!-- end service-item -->
@@ -256,12 +215,11 @@ $doar_agora_link = null;
                     <div class="service-item service-item1">
                         <div class="service-item-inner">
                             <div class="service-content">
-                                <h4 class="service__title">Bauru, SP</h4>
+                                <h4 class="service__title">São Paulo, SP</h4>
                                 <p class="service__desc">
-                                    Faça parte do movimento e ajude as pessoas da cidade de Bauru-SP.
+                                    Faça parte do movimento e ajude as pessoas da cidade de São Paulo-SP.
                                 </p>
-                                <!-- ESTÃO MUDANDO DE PLATAFORMA -->
-                                <!-- <a target="_blank" href="./sp" class="theme-btn">Doar para a cidade de Marília</a> -->
+                                <a target="_blank" href="https://coronavidas.net/sp" class="theme-btn">Doar para a cidade de São Paulo.</a>
                             </div>
                         </div><!-- end service-item-inner -->
                     </div><!-- end service-item -->
@@ -274,7 +232,7 @@ $doar_agora_link = null;
                                 <p class="service__desc">
                                     Faça parte do movimento e ajude as pessoas das cidades do Vale do Paraíba-SP.
                                 </p>
-                                <a target="_blank" href="./valedoparaiba" class="theme-btn">Doar para as cidades do Vale do Paraíba</a>
+                                <a target="_blank" href="https://coronavidas.net/valedoparaiba" class="theme-btn">Doar para as cidades do Vale do Paraíba</a>
                             </div>
                         </div><!-- end service-item-inner -->
                     </div><!-- end service-item -->
@@ -306,7 +264,7 @@ $doar_agora_link = null;
                     </div><!-- end service-item -->
                 </div><!-- end col -->
             </div>
-            <div class="row service-wrap">
+            <!--div class="row service-wrap">
                 <div class="col">
                     <div class="service-item service-item1">
                         <div class="service-item-inner">
@@ -318,21 +276,22 @@ $doar_agora_link = null;
                                 <a target="_blank" href="./sp" class="theme-btn">Doar para a cidade de São Paulo</a>
                             </div>
                         </div><!-- end service-item-inner -->
-                    </div><!-- end service-item -->
-                </div><!-- end col -->
-                <div class="col">
-                    <div class="service-item service-item1">
-                        <div class="service-item-inner">
-                            <div class="service-content">
-                                <h4 class="service__title">Valença, Bahia</h4>
-                                <p class="service__desc">
-                                    Faça parte do movimento e ajude as pessoas desse Hub.
-                                </p>
-                                <!-- <a target="_blank" href="https://chat.whatsapp.com/DcL189qM2WIHr8K0X1THmf" class="theme-btn" >Faça parte</a> -->
-                            </div>
-                        </div><!-- end service-item-inner -->
-                    </div><!-- end service-item -->
-                </div><!-- end col -->
+        </div><!-- end service-item -->
+        </div><!-- end col -->
+        <div class="col">
+            <div class="service-item service-item1">
+                <div class="service-item-inner">
+                    <div class="service-content">
+                        <h4 class="service__title">Valença, Bahia</h4>
+                        <p class="service__desc">
+                            Faça parte do movimento e ajude as pessoas desse Hub.
+                        </p>
+                        <a target="_blank" href="https://chat.whatsapp.com/DcL189qM2WIHr8K0X1THmf" class="theme-btn">Faça parte</a>
+                    </div>
+                </div>
+            </div>
+            </div-->
+            <!--
                 <div class="col">
                     <div class="service-item service-item1">
                         <div class="service-item-inner">
@@ -341,38 +300,78 @@ $doar_agora_link = null;
                                 <p class="service__desc">
                                     Faça parte do movimento e ajude as pessoas desse Hub.
                                 </p>
-                                <!-- <a target="_blank" href="https://chat.whatsapp.com/DcL189qM2WIHr8K0X1THmf" class="theme-btn" >Faça parte</a> -->
+                                <a target="_blank" href="https://chat.whatsapp.com/DcL189qM2WIHr8K0X1THmf" class="theme-btn" >Faça parte</a>
                             </div>
-                        </div><!-- end service-item-inner -->
-                    </div><!-- end service-item -->
-                </div><!-- end col -->
-                <div class="col"></div>
-            </div>
+                        </div>
+                    </div>
+                </div-->
+            <!-- end col -->
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+        <div class="row service-wrap">
+            <div class="col">
+                <div class="service-item service-item1">
+                    <div class="service-item-inner">
+                        <div class="service-content">
+                            <h4 class="service__title">Itabuna, Bahia</h4>
+                            <p class="service__desc">
+                                Faça parte do movimento e ajude as pessoas desse Hub.
+                            </p>
+                            <a target="_blank" href="https://chat.whatsapp.com/JGlX3K0gr7WDKa7dZuCMvO" class="theme-btn">Faça parte</a>
+                        </div>
+                    </div><!-- end service-item-inner -->
+                </div><!-- end service-item -->
+            </div><!-- end col -->
+        </div>
+        <div class="row service-wrap">
+            <div class="col">
+                <div class="service-item service-item1">
+                    <div class="service-item-inner">
+                        <div class="service-content">
+                            <h4 class="service__title">Sua cidade não está aqui?</h4>
+                            <p class="service__desc">
+                                Faça a diferença e crie um Hub em sua cidade.
+                            </p>
+                            <a href="#crie-seu-hub" class="theme-btn">Criar um Hub</a>
+                        </div>
+                    </div><!-- end service-item-inner -->
+                </div><!-- end service-item -->
+            </div><!-- end col -->
+        </div>
+        </div><!-- end container -->
+    </section><!-- end service-area -->
+    <!--================================
+      END SERVICE AREA
+=================================-->
+
+
+    <!--================================
+         START NOTA TÉCNICA
+=================================-->
+    <section id="nota-tecnica" class="make-world-area text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="section-heading service-heading">
+                        <div class="section-icon">
+                            <img src="images/section-icon.png" alt="section-icon">
+                        </div>
+                        <h2 class="section__title">Nota Técnica</h2>
+                    </div><!-- end section-heading -->
+                </div><!-- end col-lg-8 -->
+            </div><!-- end row -->
             <div class="row service-wrap">
                 <div class="col">
                     <div class="service-item service-item1">
                         <div class="service-item-inner">
                             <div class="service-content">
-                                <h4 class="service__title">Itabuna, Bahia</h4>
+                                <h4 class="service__title" style="margin-top:40px">Nota Técnica sobre o Covid 06/04</h4>
                                 <p class="service__desc">
-                                    Faça parte do movimento e ajude as pessoas desse Hub.
+                                    Clique no botão abaixo para ler
                                 </p>
-                                <a target="_blank" href="https://chat.whatsapp.com/JGlX3K0gr7WDKa7dZuCMvO" class="theme-btn">Faça parte</a>
-                            </div>
-                        </div><!-- end service-item-inner -->
-                    </div><!-- end service-item -->
-                </div><!-- end col -->
-            </div>
-            <div class="row service-wrap">
-                <div class="col">
-                    <div class="service-item service-item1">
-                        <div class="service-item-inner">
-                            <div class="service-content">
-                                <h4 class="service__title">Sua cidade não está aqui?</h4>
-                                <p class="service__desc">
-                                    Faça a diferença e crie um Hub em sua cidade.
-                                </p>
-                                <a href="#crie-seu-hub" class="theme-btn">Criar um Hub</a>
+                                <a target="_blank" href="https://coronavidas.net/notas_tecnicas/nota-tecnica-sobre-covid-06-04.pdf" class="theme-btn">Baixar</a>
                             </div>
                         </div><!-- end service-item-inner -->
                     </div><!-- end service-item -->
@@ -381,8 +380,19 @@ $doar_agora_link = null;
         </div><!-- end container -->
     </section><!-- end service-area -->
     <!--================================
-      END SERVICE AREA
+      END NOTA TÉCNICA
 =================================-->
+
+
+
+
+
+
+
+
+
+
+
 
 
     <!--================================
@@ -718,7 +728,7 @@ $doar_agora_link = null;
                             <img src="images/section-icon.png" alt="section-icon">
                         </div>
                         <h2 class="section__title text__white">Precisamos de sua ajuda. <br> Seja um doador!</h2>
-                        <a target="_blank" href="http://vaka.me/956493" class="theme-btn">DOAR AGORA</a>
+                        <a target="_blank" href="http://coronavidas.net/#projetos" class="theme-btn">DOAR AGORA</a>
                         <a target="_blank" href="https://chat.whatsapp.com/DcL189qM2WIHr8K0X1THmf" class="theme-btn" style="margin-left: 30px">SEJA VOLUNTÁRIO</a>
 
                     </div><!-- end section-heading -->
@@ -818,10 +828,10 @@ $doar_agora_link = null;
 =================================-->
 
 
-<!--================================
+    <!--================================
          START CONTRIBUTORS AREA
 =================================-->
-<section class="contribuitors-area">
+    <section class="contribuitors-area">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
@@ -829,7 +839,7 @@ $doar_agora_link = null;
                         <div class="section-icon">
                             <img src="images/section-icon.png" alt="section-icon">
                         </div>
-                        <h2 class="section__title">Empresas que acreditam no CoronaVidas</h2> 
+                        <h2 class="section__title">Empresas que acreditam no CoronaVidas</h2>
                     </div>
                 </div>
             </div>
@@ -880,7 +890,7 @@ $doar_agora_link = null;
         </div>
     </section>
 
-<!--================================
+    <!--================================
       END CONTRIBUTORS  AREA
 =================================-->
 
